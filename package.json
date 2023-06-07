@@ -10,7 +10,7 @@
     "frontend-install": "npm install --prefix frontend",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "postbuild": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
